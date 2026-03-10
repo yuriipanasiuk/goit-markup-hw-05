@@ -524,12 +524,14 @@
           <p class="subscribe-title">Subscribe</p>
 
           <form class="form-subscribe">
-            <input type="email" placeholder="E-mail" class="form-input" />
+            <label class="form-subscribe-label">
+            <input type="email" name="user-email" placeholder="E-mail" class="form-input" />
+            </label>
 
             <button type="submit" class="subscribe-btn">
               Subscribe
 
-              <svg width="24" height="24" class="icons">
+              <svg width="24" height="24" class="icons close-icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
