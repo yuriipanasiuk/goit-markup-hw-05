@@ -585,6 +585,7 @@ address {
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
+  z-index: 999;
 }
 
 .close-modal-button {
